@@ -9,3 +9,7 @@
 ・Docker images otimizadas
 
 ・Variáveis traduzidas
+
+# 📚 | Changelog
+
+・13/10 - Criação do repositório.

@@ -5,3 +5,5 @@ Repóstorio focado em fornecer eggs com modificações necessárias para toda a 
 # 📁 | Contato
 
 ```Discord: zGumeloBr#8726```
+
+VOCE CAIU NO GEMIDÃO DO WEBSEXO OOWWWHHNNN ÃÃHNNNN AIN CALICA

@@ -15,4 +15,5 @@
 # 📚 | Changelog
 
 ・13/10 - Adicionado XMS editável.
+
 ・13/10 - Criação do repositório.

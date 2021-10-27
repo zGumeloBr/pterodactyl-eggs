@@ -14,6 +14,8 @@
 
 # 📚 | Changelog
 
-・13/10 - Adicionado XMS editável.
+・27/10/2021 - Correção flag XMS.
 
-・13/10 - Criação do repositório.
+・13/10/2021 - Adicionado XMS editável.
+
+・13/10/2021 - Criação do repositório.

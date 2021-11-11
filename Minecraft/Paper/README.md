@@ -1,3 +1,9 @@
+# ℹ️ | Description
+
+Fork do sistema Spigot com foco em aumento de desempenho e correção de bugs.
+
+Link: https://papermc.io/
+
 # 🛡 | Features
 
 ・JVM Flags editável
@@ -6,11 +12,7 @@
 
 ・XMS editável
 
-・Versões do Java 7 a 17
-
-・Docker images otimizadas
-
-・Variáveis traduzidas
+・Versões do Java 8 a 16
 
 # 📚 | Changelog
 

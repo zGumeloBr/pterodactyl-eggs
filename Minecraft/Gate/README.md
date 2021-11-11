@@ -1,3 +1,9 @@
+#ℹ️ | Description
+
+Servidor proxy de alta perfomace baseado em Golang, desenvolvido para o jogo minecraft.
+
+Link: https://gate.minekube.com/
+
 # 🛡 | Features
 
 ・Super perfomace

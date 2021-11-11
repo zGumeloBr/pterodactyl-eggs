@@ -12,4 +12,4 @@ Link: https://gate.minekube.com/
 
 # 📚 | Changelog
 
-・11/11/2021 - Lançamento oficial
+・11/11/2021 - Lançamento

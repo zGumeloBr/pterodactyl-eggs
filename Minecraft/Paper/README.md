@@ -1,28 +1,31 @@
 # ℹ️ | Description
 
-Fork do sistema Spigot com foco em aumento de desempenho do servidor.
+🇧🇷 | Fork do servidor Spigot com foco em aumento de desempenho e correção de bugs.
+
+🇺🇸 | Spigot server fork with a focus on performance boost and bug fixes.
 
 Link: https://papermc.io/
 
 # 🛡 | Features
 
-・JVM Flags editável
+(🇧🇷)
 
-・XMX Anti-Out-Of-Memory
+・Compatibilidade a 1.8-1.17
+・XMS editável.
+・JVM FLAGS editável.
 
-・XMS editável
+(🇺🇸)
 
-・Versões do Java 8 a 16
+・Compatibility with 1.8-1.17
+・Editable XMS.
+・Editable JVM Flags
 
 # 📚 | Changelog
 
-・11/11/2021 - Otimizações gerais no egg.
-  - Adicionada novas dockers images.
-  - Correção de erro no startup.
-  - Diminuição no tempo de instalação.
+(🇧🇷)
 
-・27/10/2021 - Correção flag XMS.
+・11/11/2021 - Lançamento v2.
 
-・13/10/2021 - Adicionado XMS editável.
+(🇺🇸)
 
-・13/10/2021 - Lançamento.
+・11/11/2021 - Launch v2.

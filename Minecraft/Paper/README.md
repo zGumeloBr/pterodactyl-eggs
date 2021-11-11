@@ -11,13 +11,17 @@ Link: https://papermc.io/
 (🇧🇷)
 
 ・Compatibilidade a 1.8-1.17
+
 ・XMS editável.
+
 ・JVM FLAGS editável.
 
 (🇺🇸)
 
 ・Compatibility with 1.8-1.17
+
 ・Editable XMS.
+
 ・Editable JVM Flags
 
 # 📚 | Changelog

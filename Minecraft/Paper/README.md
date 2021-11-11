@@ -16,6 +16,11 @@ Link: https://papermc.io/
 
 # 📚 | Changelog
 
+・11/11/2021 - Otimizações gerais no egg.
+  - Adicionada novas dockers images.
+  - Correção de erro no startup.
+  - Diminuição no tempo de instalação.
+
 ・27/10/2021 - Correção flag XMS.
 
 ・13/10/2021 - Adicionado XMS editável.

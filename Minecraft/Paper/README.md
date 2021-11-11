@@ -1,6 +1,6 @@
 # ℹ️ | Description
 
-Fork do sistema Spigot com foco em aumento de desempenho e correção de bugs.
+Fork do sistema Spigot com foco em aumento de desempenho do servidor.
 
 Link: https://papermc.io/
 
@@ -8,7 +8,7 @@ Link: https://papermc.io/
 
 ・JVM Flags editável
 
-・XMX anti-out-of-memory
+・XMX Anti-Out-Of-Memory
 
 ・XMS editável
 
@@ -20,4 +20,4 @@ Link: https://papermc.io/
 
 ・13/10/2021 - Adicionado XMS editável.
 
-・13/10/2021 - Criação do repositório.
+・13/10/2021 - Lançamento.

@@ -1,4 +1,4 @@
-#ℹ️ | Description
+# ℹ️ | Description
 
 Servidor proxy de alta perfomace baseado em Golang, desenvolvido para o jogo minecraft.
 

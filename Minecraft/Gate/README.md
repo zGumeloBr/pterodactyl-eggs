@@ -6,8 +6,6 @@ Link: https://gate.minekube.com/
 
 # 🛡 | Features
 
-・Super perfomace
-
 ・Compatibilidade a 1.8-1.17
 
 # 📚 | Changelog

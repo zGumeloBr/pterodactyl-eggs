@@ -10,7 +10,7 @@
     "description": "Proxy de alta perfomace para minecraft",
     "features": null,
     "images": [
-        "ghcr.io\/zgumelobr\/pterodactyl:gate_latest"
+        "ghcr.io\/zgumelobr\/pterodactyl:binary_latest"
     ],
     "file_denylist": [],
     "startup": ".\/gate",

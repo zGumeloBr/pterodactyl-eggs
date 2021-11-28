@@ -16,6 +16,7 @@
         "ghcr.io\/zgumelobr\/pterodactyl:java_7",
         "ghcr.io\/zgumelobr\/pterodactyl:java_11",
         "ghcr.io\/zgumelobr\/pterodactyl:java_16"
+        "ghcr.io\/zgumelobr\/pterodactyl:java_17"
     ],
     "file_denylist": [],
     "startup": "java -Xms{{SERVER_XMS_MEMORY}}M -Xmx$(({{SERVER_MEMORY}}-{{SERVER_BUFFER_MEMORY}}))M {{SERVER_FLAGS}} -jar {{SERVER_JARFILE}}",

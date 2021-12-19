@@ -15,8 +15,8 @@
         "ghcr.io\/zgumelobr\/pterodactyl:java_8",
         "ghcr.io\/zgumelobr\/pterodactyl:java_7",
         "ghcr.io\/zgumelobr\/pterodactyl:java_11",
-        "ghcr.io\/zgumelobr\/pterodactyl:java_16"
-        "ghcr.io\/zgumelobr\/pterodactyl:java_17"
+        "ghcr.io\/zgumelobr\/pterodactyl:java_16",
+        "ghcr.io\/zgumelobr\/pterodactyl:java_17",
         "ghcr.io\/zgumelobr\/pterodactyl:java_18"
     ],
     "file_denylist": [],

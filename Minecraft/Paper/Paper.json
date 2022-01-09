@@ -15,6 +15,7 @@
         "ghcr.io\/zgumelobr\/pterodactyl:java_8",
         "ghcr.io\/zgumelobr\/pterodactyl:java_7",
         "ghcr.io\/zgumelobr\/pterodactyl:java_11",
+        "ghcr.io\/zgumelobr\/pterodactyl:java_15",
         "ghcr.io\/zgumelobr\/pterodactyl:java_16",
         "ghcr.io\/zgumelobr\/pterodactyl:java_17",
     ],

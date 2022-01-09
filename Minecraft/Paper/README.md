@@ -28,8 +28,16 @@ Link: https://papermc.io/
 
 (🇧🇷)
 
+・09/01/2022 - Remoção do java 18.
+             - Implementação do java 15.
+             - Novas otimizações dentro da docker image.
+
 ・11/11/2021 - Lançamento v2.
 
 (🇺🇸)
+
+・09/01/2022 - Removal of java 18.
+             - Java 15 implementation.
+             - New optimizations within docker image.
 
 ・11/11/2021 - Launch v2.

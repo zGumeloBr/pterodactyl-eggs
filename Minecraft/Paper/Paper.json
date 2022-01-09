@@ -4,7 +4,7 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2021-07-02T04:03:08+03:00",
+    "exported_at": "2022-01-09T12:29:24-03:00",
     "name": "Paper",
     "author": "yan.mf@outlook.com",
     "description": "Fork de alta perfomace do Spigot",
@@ -17,7 +17,7 @@
         "ghcr.io\/zgumelobr\/pterodactyl:java_11",
         "ghcr.io\/zgumelobr\/pterodactyl:java_15",
         "ghcr.io\/zgumelobr\/pterodactyl:java_16",
-        "ghcr.io\/zgumelobr\/pterodactyl:java_17",
+        "ghcr.io\/zgumelobr\/pterodactyl:java_17"
     ],
     "file_denylist": [],
     "startup": "java -Xms{{SERVER_XMS_MEMORY}}M -Xmx$(({{SERVER_MEMORY}}-{{SERVER_BUFFER_MEMORY}}))M {{SERVER_FLAGS}} -jar {{SERVER_JARFILE}}",
@@ -29,7 +29,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\napt update\r\napt install -y wget curl\r\n\r\ncd \/mnt\/server\r\n\r\nwget https:\/\/papermc.io\/api\/v2\/projects\/paper\/versions\/1.8.8\/builds\/445\/downloads\/paper-1.8.8-445.jar\r\n\r\ncp paper-1.8.8-443.jar server.jar\r\n\r\nrm -rf paper-1.8.8-443.jar\r\n\r\nif [ ! -f server.properties ]; then\r\n    curl -o server.properties https:\/\/raw.githubusercontent.com\/parkervcp\/eggs\/master\/game_eggs\/minecraft\/java\/server.properties\r\nfi",
+            "script": "#!\/bin\/bash\r\napt update && apt install -y curl\r\ncd \/mnt\/server\r\ncurl -o server.jar https:\/\/papermc.io\/api\/v2\/projects\/paper\/versions\/1.8.8\/builds\/445\/downloads\/paper-1.8.8-445.jar\r\nif [ ! -f server.properties ]; then\r\ncurl -o server.properties https:\/\/raw.githubusercontent.com\/zGumeloBr\/pterodactyl-eggs\/main\/Minecraft\/Paper\/server.properties\r\nfi",
             "container": "debian:buster-slim",
             "entrypoint": "bash"
         }

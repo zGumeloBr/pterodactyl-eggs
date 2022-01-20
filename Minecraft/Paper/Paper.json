@@ -37,7 +37,7 @@
     "variables": [
         {
             "name": "Arquivo .Jar",
-            "description": "Nome do arquivo .jar principal do servidor.",
+            "description": "[Startup Archive] Nome do arquivo .jar principal do servidor.",
             "env_variable": "SERVER_JARFILE",
             "default_value": "server.jar",
             "user_viewable": true,
@@ -70,7 +70,7 @@
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string"
-        }
+        },
         {
             "name": "Timezone",
             "description": "[Container Timezone] Defina o horário do container para o seu servidor, lista de timezones: https://www.php.net/manual/pt_BR/timezones.php",

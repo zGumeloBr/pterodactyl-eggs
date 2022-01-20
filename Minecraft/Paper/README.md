@@ -28,6 +28,8 @@ Link: https://papermc.io/
 
 (🇧🇷)
 
+・20/01/2022 - Adicionado opção de timezone.
+
 ・09/01/2022 - Remoção do java 18.
              - Implementação do java 15.
              - Novas otimizações dentro da docker image.
@@ -35,6 +37,8 @@ Link: https://papermc.io/
 ・11/11/2021 - Lançamento v2.
 
 (🇺🇸)
+
+・20/01/2022 - Added timezone option.
 
 ・09/01/2022 - Removal of java 18.
              - Java 15 implementation.

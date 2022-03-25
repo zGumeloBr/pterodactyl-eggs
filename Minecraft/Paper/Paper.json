@@ -20,7 +20,7 @@
         "ghcr.io\/zgumelobr\/pterodactyl:java_17"
     ],
     "file_denylist": [],
-    "startup": "java -Xms{{SERVER_XMS_MEMORY}}M -Xmx$(({{SERVER_MEMORY}}-{{SERVER_BUFFER_MEMORY}}))M -Duser.timezone={{SERVER_TIMEZONE}} {{SERVER_FLAGS}} -jar {{SERVER_JARFILE}}",
+    "startup": "java -Xms{{SERVER_XMS_MEMORY}}M -Xmx{{SERVER_MEMORY}}M -Duser.timezone={{SERVER_TIMEZONE}} {{SERVER_FLAGS}} -jar {{SERVER_JARFILE}}",
     "config": {
         "files": "{\r\n    \"server.properties\": {\r\n        \"parser\": \"properties\",\r\n        \"find\": {\r\n            \"server-ip\": \"0.0.0.0\",\r\n            \"server-port\": \"{{server.build.default.port}}\"\r\n        }\r\n    }\r\n}",
         "startup": "{\r\n    \"done\": \")! For help, type \",\r\n    \"userInteraction\": [\r\n        \"Go to eula.txt for more info.\"\r\n    ]\r\n}",
@@ -49,15 +49,6 @@
             "description": "[JVM startup flags] Flags de start para o servidor.",
             "env_variable": "SERVER_FLAGS",
             "default_value": "-Dterminal.jline=false -Dterminal.ansi=true",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|string"
-        },
-        {
-            "name": "RAM Buffer (MB)",
-            "description": "[Valor XMX] Previne que o servidor sofra com out-of-memory ao utilizar as JVM Flags.",
-            "env_variable": "SERVER_BUFFER_MEMORY",
-            "default_value": "512",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string"

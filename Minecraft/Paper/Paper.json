@@ -9,9 +9,7 @@
     "author": "yan.mf@outlook.com",
     "description": "",
     "features": [
-        "eula",
-        "java_version",
-        "pid_limit"
+        "eula"
     ],
     "images": [
         "ghcr.io\/zgumelobr\/pterodactyl:java_8",

@@ -1,6 +1,6 @@
 # ℹ️ | Description
 
-Fork do servidor Spigot com foco em aumento de desempenho e correção de bugs.
+Fork do servidor Spigot com foco em aumento de desempenho e correção de bugs. O egg também possui 100% de compatibilidades para .jars forks do PaperSpigot e Spigot.
 
 Link: https://papermc.io/
 

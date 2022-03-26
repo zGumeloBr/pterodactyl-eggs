@@ -9,7 +9,9 @@
     "author": "yan.mf@outlook.com",
     "description": "Fork de alta perfomace do Spigot",
     "features": [
-        "eula"
+        "eula",
+        "java_version",
+        "pid_limit"
     ],
     "images": [
         "ghcr.io\/zgumelobr\/pterodactyl:java_8",

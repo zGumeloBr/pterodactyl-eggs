@@ -6,11 +6,11 @@ Link: https://papermc.io/
 
 # 🛡 | Features
 
-・Compatibilidade a 1.8-1.18
-
 ・XMS editável.
 
 ・JVM FLAGS editável.
+
+・Java otimizado.
 
 
 # 📚 | Changelog

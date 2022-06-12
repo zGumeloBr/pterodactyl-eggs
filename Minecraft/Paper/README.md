@@ -26,8 +26,6 @@ Link: https://papermc.io/
 ・20/01/2022 - Adicionado opção de timezone.
 
 ・09/01/2022 
-
-- Remoção do java 18.
              
 - Implementação do java 15.
              

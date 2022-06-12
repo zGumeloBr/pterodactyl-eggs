@@ -9,7 +9,9 @@
     "author": "yan.mf@outlook.com",
     "description": "",
     "features": [
-        "eula"
+        "eula",
+        "java_version",
+        "pid_limit"
     ],
     "images": [
         "ghcr.io\/zgumelobr\/pterodactyl:java_8",
@@ -17,7 +19,8 @@
         "ghcr.io\/zgumelobr\/pterodactyl:java_11",
         "ghcr.io\/zgumelobr\/pterodactyl:java_15",
         "ghcr.io\/zgumelobr\/pterodactyl:java_16",
-        "ghcr.io\/zgumelobr\/pterodactyl:java_17"
+        "ghcr.io\/zgumelobr\/pterodactyl:java_17",
+        "ghcr.io\/zgumelobr\/pterodactyl:java_18"
     ],
     "file_denylist": [],
     "startup": "java -Xms{{SERVER_XMS_MEMORY}}M -Xmx{{SERVER_MEMORY}}M -Duser.timezone={{SERVER_TIMEZONE}} {{SERVER_FLAGS}} -jar {{SERVER_JARFILE}}",

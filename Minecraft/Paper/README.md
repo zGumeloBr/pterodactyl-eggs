@@ -15,6 +15,9 @@ Link: https://papermc.io/
 
 # 📚 | Changelog
 
+・12/06/2022 - Adicionado java 18.
+             - Implementação de novas features do painel pterodactyl.
+
 ・26/03/2022 - Adicionado PID limit.
 
 ・20/01/2022 - Adicionado opção de timezone.

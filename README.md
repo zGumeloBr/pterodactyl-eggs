@@ -1,7 +1,25 @@
-# 🦖 | Pterodactyl Eggs
+# 🪿| Pterodactyl Eggs
 
-Repósitorio focado em fornecer eggs com modificações necessárias para toda a comunidade, facilitando a vida dos usuários e dos administradores.
+Repository focused on bringing the most diverse eggs compatible with the Pterodactyl panel.
 
-# 📁 | Contact
+## Eggs files
 
-```Discord: zGumeloBr#8726```
+Listed below are all the eggs supported by the repository.
+
+#### DragonflyDB
+
+| Egg | Link ||
+| ------ | ------ | ------ |
+| Database | [URL]() | ✅ |
+
+#### Minecraft
+
+| Egg | Link || 
+| ------ | ------ | ------ |
+| Paper | [URL](https://github.com/zGumeloBr/pterodactyl-eggs/tree/main/Minecraft/Paper) | ✅ |
+
+## 📁 | Contact
+
+Discord: ```zgumelobr```
+
+Telegram: ```@zGumeloBr```

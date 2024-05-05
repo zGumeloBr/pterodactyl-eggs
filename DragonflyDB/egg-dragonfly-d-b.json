@@ -1,0 +1,42 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2024-05-05T13:34:58-03:00",
+    "name": "DragonflyDB",
+    "author": "yan.mf@outlook.com",
+    "description": "Dragonfly is a simple, performant, and cost-efficient in-memory data store. Dragonfly is fully compatible with Redis APIs but without the Redis management complexity.",
+    "features": null,
+    "docker_images": {
+        "ghcr.io\/zgumelobr\/pterodactyl:dragonflydb_latest": "ghcr.io\/zgumelobr\/pterodactyl:dragonflydb_latest"
+    },
+    "file_denylist": [],
+    "startup": ".\/dragonfly --logtostderr --requirepass={{SERVER_PASSWORD}} --port {{SERVER_PORT}}",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"Configuration loaded\"\r\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!\/bin\/ash\r\n# DragonflyDB Installation Script\r\n#\r\n# Server Files: \/mnt\/server\r\n\r\napk add --no-cache wget\r\n\r\nif [ ! -d \/mnt\/server ]; then\r\n    mkdir \/mnt\/server\/\r\nfi\r\n\r\ncd \/mnt\/server\/\r\n\r\nwget https:\/\/dragonflydb.gateway.scarf.sh\/latest\/dragonfly-x86_64.tar.gz\r\ntar -xvf dragonfly-x86_64.tar.gz\r\nmv dragonfly-x86_64 dragonfly\r\n\r\nrm -rf LICENSE.md\r\nrm -rf dragonfly-x86_64.tar.gz\r\n\r\nsleep 5\r\necho -e \"DragonflyDB file installed without problems!\"",
+            "container": "ghcr.io\/pterodactyl\/installers:alpine",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Server password",
+            "description": "The password redis should use to secure the server.",
+            "env_variable": "SERVER_PASSWORD",
+            "default_value": "P@55w0rd",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string",
+            "field_type": "text"
+        }
+    ]
+}

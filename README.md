@@ -10,7 +10,7 @@ Listed below are all the eggs supported by the repository.
 
 | Egg | Link ||
 | ------ | ------ | ------ |
-| Database | [URL]() | ✅ |
+| Database | [URL](https://github.com/zGumeloBr/pterodactyl-eggs/tree/main/DragonflyDB) | ✅ |
 
 #### Minecraft
 

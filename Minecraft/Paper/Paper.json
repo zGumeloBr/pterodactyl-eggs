@@ -14,16 +14,16 @@
         "pid_limit"
     ],
     "docker_images": {
-        "Zulu 8": "ghcr.io\/zgumelobr\/pterodactyl:java_8",
-        "Zulu 11": "ghcr.io\/zgumelobr\/pterodactyl:java_11",
-        "Zulu 15": "ghcr.io\/zgumelobr\/pterodactyl:java_15",
-        "Zulu 16": "ghcr.io\/zgumelobr\/pterodactyl:java_16",
-        "Zulu 17": "ghcr.io\/zgumelobr\/pterodactyl:java_17",
-        "Zulu 21": "ghcr.io\/zgumelobr\/pterodactyl:java_21",
-        "GraalVM 8": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_8",
-        "GraalVM 11": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_11",
-        "GraalVM 17": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_17",
-        "GraalVM 21": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_21"
+        "Java 8 (Zulu)": "ghcr.io\/zgumelobr\/pterodactyl:java_8",
+        "Java 11 (Zulu)": "ghcr.io\/zgumelobr\/pterodactyl:java_11",
+        "Java 15 (Zulu)": "ghcr.io\/zgumelobr\/pterodactyl:java_15",
+        "Java 16 (Zulu)": "ghcr.io\/zgumelobr\/pterodactyl:java_16",
+        "Java 17 (Zulu)": "ghcr.io\/zgumelobr\/pterodactyl:java_17",
+        "Java 21 (Zulu)": "ghcr.io\/zgumelobr\/pterodactyl:java_21",
+        "Java 8 (GraalVM)": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_8",
+        "Java 11 (GraalVM)": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_11",
+        "Java 17 (GraalVM)": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_17",
+        "Java 21 (GraalVM)": "ghcr.io\/zgumelobr\/pterodactyl:java_graalvm_21"
     },
     "file_denylist": [],
     "startup": "java -Xms128M -Xmx{{SERVER_MEMORY}}M -Duser.timezone={{SERVER_TIMEZONE}} {{SERVER_FLAGS}} -jar {{SERVER_JARFILE}}",

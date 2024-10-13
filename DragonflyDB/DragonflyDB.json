@@ -4,19 +4,19 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-10-13T02:06:39-03:00",
+    "exported_at": "2024-10-13T02:35:11-03:00",
     "name": "DragonflyDB",
     "author": "yan.mf@outlook.com",
     "description": "Dragonfly is a simple, performant, and cost-efficient in-memory data store. Dragonfly is fully compatible with Redis APIs but without the Redis management complexity.",
     "features": null,
     "docker_images": {
-        "ghcr.io\/zgumelobr\/pterodactyl:dragonflydb_latest": "ghcr.io\/zgumelobr\/pterodactyl:dragonflydb_latest"
+        "DragonflyDB": "ghcr.io\/zgumelobr\/pterodactyl:dragonflydb_latest"
     },
     "file_denylist": [],
-    "startup": "dragonfly --logtostderr --requirepass={{SERVER_PASSWORD}} --port {{SERVER_PORT}}",
+    "startup": "dragonfly --logtostderr --requirepass={{SERVER_PASSWORD}} --port {{SERVER_PORT}} {{SERVER_FLAGS}}",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \"Configuration loaded\"\r\n}",
+        "startup": "{\r\n    \"done\": \"AcceptServer - listening on port\"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },
@@ -30,12 +30,22 @@
     "variables": [
         {
             "name": "Server password",
-            "description": "The password redis should use to secure the server.",
+            "description": "The password Dragonfly should use to secure the server.",
             "env_variable": "SERVER_PASSWORD",
             "default_value": "P@55w0rd",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string",
+            "field_type": "text"
+        },
+        {
+            "name": "Flags",
+            "description": "Dragonfly can be tuned and configured by a set of config flags. See in: https:\/\/www.dragonflydb.io\/docs\/managing-dragonfly\/flags",
+            "env_variable": "SERVER_FLAGS",
+            "default_value": "",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|not_regex:\/port\/i|not_regex:\/requirepass\/i",
             "field_type": "text"
         }
     ]
